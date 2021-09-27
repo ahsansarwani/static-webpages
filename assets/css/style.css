@@ -1,0 +1,361 @@
+/*** Reset CSS ***/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html,body{
+	overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+	line-height: 1;
+	font-family: 'Montserrat' , sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*** Reset CSS Ends Here***/
+
+/*** Top Bar Styles Begins ***/
+
+.strip-top i {
+    color: #8BC53F;
+}
+
+.strip-top span {
+    letter-spacing: 2.8px;
+    color: #fff;
+}
+
+.strip-top{
+    background-color: #3C3E3F;
+}
+
+header {
+    background-color: #272727;
+    padding: 12px;
+}
+
+.navbar-brand img {
+    width: 25% !important;
+}
+
+.nav-item {
+    padding: 10px 15px 10px 15px;
+}
+
+.btn.btn-custom {
+    background-color: #F6921E;
+    font-size: 20px;
+    padding: 6px 20px 6px 20px;
+}
+
+.carousel-item .d-block.w-100 {
+    filter: brightness(65%);
+}
+
+
+.custom-cap {
+    position: absolute;
+    top: 240px;
+}
+
+.custom-cap p {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.btn.btn-banner {
+    padding: 10px;
+    background-color: #F6921E;
+    margin: 10px 0 0 0;
+		transition: .5s ease;
+}
+
+.btn-banner a {
+    font-size: 16px;
+		transition: .5s ease;
+		text-decoration: none;
+		color: #000;
+		padding: 4px;
+}
+
+
+.btn.btn-banner:hover {
+    border: 1px solid #F6921E;
+    background-color: transparent;
+		color: #fff !important;
+}
+
+.btn-banner a:hover {
+    color: #fff !important;
+}
+
+.border-custom {
+    display: block;
+    height: 4px;
+    width: 100px;
+    background: #F99119;
+}
+
+
+.bx.d-inline i {
+    color: #F99119;
+		font-size: 60px;
+}
+
+.custom-cap{
+	line-height: 2;
+}
+
+.btn.btn-custom-txt {
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+    line-height: 1.2;
+		color: #F99119;
+}
+
+.card-custom-2.p-3.mt-4 {
+    line-height: 1.8;
+}
+
+
+.text-bn p {
+    font-size: 28px;
+    color: #fff;
+}
+
+.banner-dark.p-4 {
+    background-color: #3B3B3B;
+}
+
+.text-custom-2 {
+    color: #f6921e;
+}
+
+.text-bn.text-center.m-auto {
+    width: 60%;
+}
+
+.custom-border-2 {
+    background-color: #8BC53F;
+    height: 5px;
+    width: 115px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inner-content h3 {
+    line-height: 1.8;
+}
+
+.btn.btn-custom-2 {
+    background-color: #F6921E;
+    padding: 10px 20px 10px 20px;
+}
+
+.bg-custom-ftr{
+	background-color: #272727;
+}
+
+.footer-text {
+    line-height: 2;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+.nav-list.p-0 {
+    line-height: 2.5;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: #8BC53F;
+}
+
+
+.nav-list li a:hover {
+    color: #fff;
+}
+
+.ftr-link {
+    color: #8BC53F;
+    text-decoration: none;
+}
+
+.absolute-footer{
+	background-color: #3B3A3A;
+	padding: 24px;
+}
+
+/*** Custom Border For About Page ***/
+.custom-br {
+    background-color: #F6921E;
+    height: 2px;
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+}
+
+.spacer {
+    display: block;
+    height: 55px;
+}
+
+.abt-list-items {
+    padding: 15px 0 0 15px;
+}
+
+.abt-list-items li {
+    list-style: disc;
+}
+
+.work-section{
+	background-color: #F6F6F7;
+}
+
+.prior-list-items{
+	list-style: disc;
+}
+
+
+.banner-cta {
+    background-image: url(../images/img_1.jpg);
+    background-size: 100%;
+    padding: 30px;
+    color: #fff;
+}
+
+/*** Text Block On Services Page ****/
+
+.text-heading {
+    width: 65%;
+}
+
+
+/**** Green Custom Border ****/
+
+.custom-border-1 {
+    display: block;
+    background-color: #8BC53F;
+    width: 82px;
+    height: 2px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    right: 5px;
+}
+
+
+.spacer-2 {
+    display: block;
+    height: 12px;
+}
+
+.services-ul-items.p-0 li {
+    word-spacing: 7.5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.fas.fa-check {
+    color: #F6921E;
+}
+
+.spacer-3 {
+    display: block;
+    height: 36px;
+}
+
+.form-list-items.p-0.py-2 {
+    line-height: 2;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: #8BC53F;
+}
+
+.custom-link:hover {
+    color: #8BC53F;
+}
+
+.custom-link-2 {
+    text-decoration: none;
+    color: #8BC53F;
+}
+
+.custom-link-2:hover {
+    color: #8BC53F;
+}
+
+.spacer-custom-or {
+    display: block;
+    background-color: #F6921E;
+    height: 1px;
+    width: 130px;
+    position: relative;
+    bottom: 8px;
+}
+
+.spacer-custom-or-2 {
+    display: block;
+    background-color: #F6921E;
+    height: 1px;
+    width: 50px;
+    position: relative;
+    bottom: 8px;
+}
+
+.btn.btn-custom-3 {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+}
+
+.btn.btn-custom-3 {
+    background-color: #000;
+    color: #F6921E;
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;
+}
