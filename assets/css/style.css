@@ -174,10 +174,11 @@ header {
 
 .custom-border-2 {
     background-color: #8BC53F;
-    height: 5px;
+    height: 3px;
     width: 115px;
     display: block;
-    margin-bottom: 5px;
+    bottom: 1px;
+    position: relative;
 }
 
 .inner-content h3 {
