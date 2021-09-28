@@ -263,7 +263,7 @@ header {
 .banner-cta {
     background-image: url(../images/img_1.jpg);
     background-size: 100%;
-    padding: 30px;
+    padding: 40px 20px 40px 0;
     color: #fff;
 }
 
