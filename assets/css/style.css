@@ -211,6 +211,10 @@ header {
     color: #8BC53F;
 }
 
+.nav-link.active {
+    color: #8BC53F !important;
+}
+
 
 .nav-list li a:hover {
     color: #fff;
